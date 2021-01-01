@@ -1,0 +1,13 @@
+{
+    "type": "node",
+    "request": "launch",
+    "name": "ts Launch Program",
+    "runtimeArgs": [
+        "-r",
+        "C:/Users/xieji/AppData/Roaming/npm/node_modules/ts-node/register"
+　　　　//这里是cli的参数
+    ],
+    "args": [
+        "${workspaceFolder}/function.ts"
+    ]
+}
